@@ -1,0 +1,565 @@
+{
+  "common": {
+    "globalUI": {
+      "loadingText": "Loading Fixaro...",
+      "notFoundTitle": "Page not found",
+      "notFoundDescription": "We could not find this page. You can return to the home page and keep browsing.",
+      "backHomeLabel": "Go to home page",
+      "backHomeUrl": "/"
+    },
+    "metadata": {
+      "title": "Fixaro | Phone and Laptop Repair",
+      "description": "Simple and reliable repair help for phones, tablets and laptops.",
+      "icon": "/main logo/fixaro-logo.webp",
+      "language": "en"
+    },
+    "theme": {
+      "fontStylesheet": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap",
+      "fontPrimary": "Montserrat, sans-serif",
+      "fontHeading": "Montserrat, sans-serif"
+    },
+    "Footer": {
+      "variants": {
+        "FixaroFooter2": {
+          "logo": "/main logo/fixaro-logo.webp",
+          "logoAlt": "Fixaro repair service logo",
+          "description": "Clear advice and reliable repairs for the devices you use every day.",
+          "columns": [
+            {
+              "id": "footer-navigation",
+              "title": "Quick links",
+              "links": [
+                {
+                  "id": "footer-home",
+                  "label": "Overview",
+                  "url": "#home"
+                },
+                {
+                  "id": "footer-about",
+                  "label": "Our story",
+                  "url": "#about"
+                },
+                {
+                  "id": "footer-services",
+                  "label": "Repairs",
+                  "url": "#services"
+                },
+                {
+                  "id": "footer-team",
+                  "label": "Our team",
+                  "url": "#team"
+                },
+                {
+                  "id": "footer-testimonials",
+                  "label": "Feedback",
+                  "url": "#testimonials"
+                },
+                {
+                  "id": "footer-contact",
+                  "label": "Get in touch",
+                  "url": "#contact"
+                }
+              ]
+            },
+            {
+              "id": "footer-support",
+              "title": "Contact details",
+              "links": [
+                {
+                  "id": "footer-address",
+                  "label": "123 Dummy St, New York, NY 10001",
+                  "url": "#contact"
+                },
+                {
+                  "id": "footer-phone",
+                  "label": "+1 000000000",
+                  "url": "tel:+1000000000"
+                },
+                {
+                  "id": "footer-email",
+                  "label": "info@xyz.com",
+                  "url": "mailto:info@xyz.com"
+                }
+              ]
+            }
+          ],
+          "socialLinks": [
+            {
+              "id": "social-instagram",
+              "icon": "FaInstagram",
+              "label": "Visit Fixaro on Instagram",
+              "url": "#home"
+            },
+            {
+              "id": "social-facebook",
+              "icon": "FaFacebookF",
+              "label": "Visit Fixaro on Facebook",
+              "url": "#home"
+            },
+            {
+              "id": "social-linkedin",
+              "icon": "FaLinkedinIn",
+              "label": "Visit Fixaro on LinkedIn",
+              "url": "#home"
+            }
+          ],
+          "copyright": "© 2026 Fixaro. Simple repairs, clear support. All rights reserved. Powered by Lestowye."
+        }
+      }
+    }
+  },
+  "categories": {
+    "HomeOne": {
+      "pages": {
+        "home": {
+          "id": "page-home",
+          "path": "/",
+          "components": [
+            {
+              "id": "page-home-header",
+              "key": "Header",
+              "component": "FixaroHeader2"
+            },
+            {
+              "id": "page-home-hero",
+              "key": "Hero",
+              "component": "FixaroHero2"
+            },
+            {
+              "id": "page-home-about",
+              "key": "AboutUs",
+              "component": "FixaroAboutUs2"
+            },
+            {
+              "id": "page-home-services",
+              "key": "Services",
+              "component": "FixaroServices2"
+            },
+            {
+              "id": "page-home-why",
+              "key": "WhyChooseUs",
+              "component": "FixaroWhyChooseUs2"
+            },
+            {
+              "id": "page-home-team",
+              "key": "Team",
+              "component": "FixaroTeam2"
+            },
+            {
+              "id": "page-home-testimonials",
+              "key": "Testimonials",
+              "component": "FixaroTestimonials2"
+            },
+            {
+              "id": "page-home-contact",
+              "key": "ContactUs",
+              "component": "FixaroContactUs2"
+            },
+            {
+              "id": "page-home-footer",
+              "key": "Footer",
+              "component": "FixaroFooter2"
+            }
+          ]
+        },
+        "notFound": {
+          "id": "page-not-found",
+          "path": "/404",
+          "components": []
+        }
+      },
+      "sections": {
+        "Header": {
+          "variants": {
+            "FixaroHeader2": {
+              "logo": "/main logo/fixaro-logo.webp",
+              "logoAlt": "Fixaro repair service logo",
+              "logoUrl": "#home",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Overview",
+                  "url": "#home"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "Our story",
+                  "url": "#about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Repairs",
+                  "url": "#services"
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Our team",
+                  "url": "#team"
+                },
+                {
+                  "id": "nav-testimonials",
+                  "label": "Feedback",
+                  "url": "#testimonials"
+                }
+              ],
+              "ctaLabel": "Get repair help",
+              "ctaUrl": "#contact",
+              "menuOpenLabel": "Open menu",
+              "menuCloseLabel": "Close menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "FixaroHero2": {
+              "id": "home",
+              "previousSlideLabel": "View previous message",
+              "nextSlideLabel": "View next message",
+              "goToSlideLabel": "View message",
+              "slides": [
+                {
+                  "id": "hero-slide-precision",
+                  "bgImage": "/other/hero-fixaro-lab.webp",
+                  "subtitleText": "Clear",
+                  "subtitleSuffix": "Repair Help",
+                  "titleLine1": "Simple repairs.",
+                  "titleLine2Highlight": "Clear",
+                  "titleLine2Text": "answers.",
+                  "description": "We check the problem, explain the cost and repair your device with care."
+                },
+                {
+                  "id": "hero-slide-mobile",
+                  "bgImage": "/other/contact-fixaro-care.webp",
+                  "subtitleText": "Quick",
+                  "subtitleSuffix": "Phone Support",
+                  "titleLine1": "Phone problems?",
+                  "titleLine2Highlight": "We",
+                  "titleLine2Text": "can help.",
+                  "description": "We fix broken screens, weak batteries, charging issues and other common phone faults."
+                },
+                {
+                  "id": "hero-slide-laptop",
+                  "bgImage": "/other/about-fixaro-lab.webp",
+                  "subtitleText": "Reliable",
+                  "subtitleSuffix": "Laptop Repair",
+                  "titleLine1": "Laptop trouble?",
+                  "titleLine2Highlight": "Let us",
+                  "titleLine2Text": "check it.",
+                  "description": "We find the fault and give you a clear repair option before any work starts."
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "FixaroAboutUs2": {
+              "id": "about",
+              "eyebrow": "About Fixaro",
+              "title": "Repair help you can understand.",
+              "description": "We take time to find the real problem. Then we explain the repair in simple words and only do the work you approve.",
+              "image": "/other/about-fixaro-lab.webp",
+              "imageAlt": "Fixaro technician checking an open laptop",
+              "imageCaption": "A look inside our repair workspace",
+              "experienceValue": "10+",
+              "experienceLabel": "Years of repair experience",
+              "principlesLabel": "What you can expect",
+              "features": [
+                {
+                  "id": "about-feature-diagnosis",
+                  "number": "01",
+                  "title": "Clear checks",
+                  "description": "We find the fault and explain it before the repair starts."
+                },
+                {
+                  "id": "about-feature-parts",
+                  "number": "02",
+                  "title": "Reliable parts",
+                  "description": "We choose parts that fit well and work safely."
+                },
+                {
+                  "id": "about-feature-testing",
+                  "number": "03",
+                  "title": "Final testing",
+                  "description": "We test the device before we give it back to you."
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "FixaroServices2": {
+              "id": "services",
+              "eyebrow": "Repair services",
+              "title": "Repairs for phones and laptops.",
+              "description": "Choose the service that matches your problem. If you are unsure, we can check the device first.",
+              "services": [
+                {
+                  "id": "service-screen",
+                  "number": "01",
+                  "title": "Broken screen",
+                  "description": "We replace cracked screens and fix touch or display problems.",
+                  "image": "/other/repair-screen.webp",
+                  "imageAlt": "Technician fitting a new phone screen"
+                },
+                {
+                  "id": "service-battery",
+                  "number": "02",
+                  "title": "Weak battery",
+                  "description": "We replace tired batteries so your device lasts longer between charges.",
+                  "image": "/other/repair-battery.webp",
+                  "imageAlt": "Technician replacing a phone battery"
+                },
+                {
+                  "id": "service-charging",
+                  "number": "03",
+                  "title": "Charging issue",
+                  "description": "We clean or repair charging ports and check power faults.",
+                  "image": "/other/repair-charging.webp",
+                  "imageAlt": "Technician cleaning a phone charging port"
+                },
+                {
+                  "id": "service-camera",
+                  "number": "04",
+                  "title": "Camera problem",
+                  "description": "We repair damaged lenses, focus faults and camera modules.",
+                  "image": "/other/repair-camera.webp",
+                  "imageAlt": "Technician replacing a phone camera module"
+                },
+                {
+                  "id": "service-water",
+                  "number": "05",
+                  "title": "Liquid damage",
+                  "description": "We clean the device and check which parts can still be saved.",
+                  "image": "/other/repair-liquid.webp",
+                  "imageAlt": "Technician cleaning a liquid-damaged phone board"
+                },
+                {
+                  "id": "service-board",
+                  "number": "06",
+                  "title": "Board repair",
+                  "description": "We trace difficult faults and repair small parts on the main board.",
+                  "image": "/other/repair-board.webp",
+                  "imageAlt": "Technician repairing a phone circuit board"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "FixaroWhyChooseUs2": {
+              "id": "why-us",
+              "eyebrow": "Why choose us",
+              "title": "A repair process with no guesswork.",
+              "description": "You get a clear update before we start. We tell you what is wrong, what it will cost and how long it may take.",
+              "image": "/other/why-fixaro-precision.webp",
+              "imageAlt": "Fixaro technician inspecting a phone under a microscope",
+              "imageLabel": "Careful work. Clear updates.",
+              "items": [
+                {
+                  "id": "why-clear-pricing",
+                  "icon": "FaReceipt",
+                  "title": "Upfront price",
+                  "description": "You see the repair price before you approve the work."
+                },
+                {
+                  "id": "why-fast-turnaround",
+                  "icon": "FaClock",
+                  "title": "Useful time estimate",
+                  "description": "We give you a realistic idea of when the device will be ready."
+                },
+                {
+                  "id": "why-warranty",
+                  "icon": "FaShield",
+                  "title": "Repair cover",
+                  "description": "Selected repairs include support after the device is returned."
+                },
+                {
+                  "id": "why-updates",
+                  "icon": "FaComments",
+                  "title": "Simple updates",
+                  "description": "We keep you informed without confusing technical language."
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "FixaroTeam2": {
+              "id": "team",
+              "eyebrow": "Our repair team",
+              "title": "People who know how to fix it.",
+              "description": "Our technicians work carefully, keep learning and explain every repair in a simple way.",
+              "members": [
+                {
+                  "id": "team-rohan",
+                  "name": "Rohan Verma",
+                  "role": "Senior repair technician",
+                  "image": "/other/team-aarav-new.webp",
+                  "imageAlt": "Rohan Verma working at the Fixaro repair bench",
+                  "specialty": "Phone board repair",
+                  "socialLinks": [
+                    {
+                      "id": "rohan-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Rohan on LinkedIn",
+                      "url": "#team"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-priya",
+                  "name": "Priya Nair",
+                  "role": "Mobile repair technician",
+                  "image": "/other/team-neha-new.webp",
+                  "imageAlt": "Priya Nair repairing a smartphone",
+                  "specialty": "Phone care",
+                  "socialLinks": [
+                    {
+                      "id": "priya-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Priya on LinkedIn",
+                      "url": "#team"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-dev",
+                  "name": "Dev Malhotra",
+                  "role": "Laptop repair technician",
+                  "image": "/other/team-kabir-new.webp",
+                  "imageAlt": "Dev Malhotra repairing an open laptop",
+                  "specialty": "Laptop repair",
+                  "socialLinks": [
+                    {
+                      "id": "dev-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Dev on LinkedIn",
+                      "url": "#team"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "FixaroTestimonials2": {
+              "id": "testimonials",
+              "eyebrow": "Customer feedback",
+              "title": "What customers say about us.",
+              "description": "Simple feedback from people who brought their devices to Fixaro.",
+              "previousLabel": "Show previous review",
+              "nextLabel": "Show next review",
+              "items": [
+                {
+                  "id": "testimonial-meera",
+                  "quote": "They explained the screen repair clearly and finished it on time. The phone looks and works much better now.",
+                  "name": "Meera Shah",
+                  "service": "Phone screen repair",
+                  "initials": "MS"
+                },
+                {
+                  "id": "testimonial-arjun",
+                  "quote": "My laptop would not start. Fixaro found the problem, shared the price first and repaired it without any confusion.",
+                  "name": "Arjun Patel",
+                  "service": "Laptop board repair",
+                  "initials": "AP"
+                },
+                {
+                  "id": "testimonial-sana",
+                  "quote": "The team was friendly and honest. My battery was replaced quickly and the phone now lasts through the day.",
+                  "name": "Sana Khan",
+                  "service": "Battery replacement",
+                  "initials": "SK"
+                }
+              ]
+            }
+          }
+        },
+        "ContactUs": {
+          "variants": {
+            "FixaroContactUs2": {
+              "id": "contact",
+              "eyebrow": "Contact Fixaro",
+              "title": "Need a repair?",
+              "description": "Tell us what device you have and what is going wrong. We will help you with the next step.",
+              "details": [
+                {
+                  "id": "contact-phone",
+                  "icon": "FaPhone",
+                  "label": "Phone",
+                  "value": "+1 000000000",
+                  "url": "tel:+1000000000"
+                },
+                {
+                  "id": "contact-email",
+                  "icon": "FaEnvelope",
+                  "label": "Email",
+                  "value": "info@xyz.com",
+                  "url": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "contact-location",
+                  "icon": "FaLocationDot",
+                  "label": "Address",
+                  "value": "123 Dummy St, New York, NY 10001",
+                  "url": "#contact"
+                },
+                {
+                  "id": "contact-hours",
+                  "icon": "FaClock",
+                  "label": "Opening hours",
+                  "value": "Monday to Saturday, 9:30 AM to 7:00 PM",
+                  "url": "#contact"
+                }
+              ],
+              "formTitle": "Ask for a call",
+              "formDescription": "Share your details and our team will contact you soon.",
+              "fields": [
+                {
+                  "id": "field-name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text",
+                  "placeholder": "Your name"
+                },
+                {
+                  "id": "field-phone",
+                  "label": "Phone",
+                  "name": "phone",
+                  "type": "tel",
+                  "placeholder": "Your phone number"
+                },
+                {
+                  "id": "field-device",
+                  "label": "Your device",
+                  "name": "device",
+                  "type": "text",
+                  "placeholder": "Phone, tablet or laptop",
+                  "isFullWidth": true
+                },
+                {
+                  "id": "field-message",
+                  "label": "Device problem",
+                  "name": "message",
+                  "type": "text",
+                  "placeholder": "Tell us what is wrong",
+                  "isTextarea": true
+                }
+              ],
+              "submitLabel": "Call me back",
+              "image": "/other/contact-fixaro-care.webp",
+              "imageAlt": "Fixaro technician repairing a phone at the workbench"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
